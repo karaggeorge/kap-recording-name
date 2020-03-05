@@ -1,0 +1,43 @@
+{
+	"name": "kap-recording-name",
+	"version": "1.0.0",
+	"description": "Create meaningful names for your recordings",
+	"license": "MIT",
+	"repository": "karaggeorge/kap-recording-name",
+	"author": {
+		"name": "George Karagkiaouris",
+		"email": "gkaragkiaouris2@gmail.com",
+		"url": "https://gkaragkiaouris.tech"
+	},
+	"scripts": {
+		"test": "xo"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"kap-plugin",
+		"recording",
+		"name",
+		"generator",
+		"clipboard",
+		"random",
+		"date",
+		"format"
+	],
+	"kapVersion": ">=3.2.0",
+	"dependencies": {
+		"moment": "^2.24.0",
+		"sanitize-filename": "^1.6.3",
+		"string-template": "^1.0.0",
+		"unique-names-generator": "^4.2.0"
+	},
+	"peerDependencies": {
+		"electron": "*"
+	},
+	"devDependencies": {
+		"ava": "^2.3.0",
+		"kap-plugin-test": "^0.5.0",
+		"xo": "^0.24.0"
+	}
+}
