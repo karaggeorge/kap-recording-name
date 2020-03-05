@@ -20,7 +20,7 @@ const dictionaryMap = new Map([
 const config = {
   nameTemplate: {
     title: 'Template',
-    description: 'Used to generate the file name. For available all options read here: ',
+    description: 'Used to generate the file name. For available all options read here: https://github.com/karaggeorge/kap-recording-name#templating',
     type: 'string',
     default: '{date} at {time} - {color} {animal}',
     required: true
