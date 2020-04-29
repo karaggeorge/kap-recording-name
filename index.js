@@ -26,14 +26,14 @@ const config = {
 		required: true
 	},
 	dateFormat: {
-		title: 'Date format',
+		title: 'Date Format',
 		description: 'Moment.js format for the {date} parameter.',
 		type: 'string',
 		default: 'YYYY-MM-DD',
 		required: true
 	},
 	timeFormat: {
-		title: 'Time format',
+		title: 'Time Format',
 		description: 'Moment.js format for the {time} parameter.',
 		type: 'string',
 		default: 'H.mm.ss',
@@ -85,7 +85,7 @@ const didStopRecording = async ({state, config, setRecordingName}) => {
 };
 
 const renameRecording = {
-	title: 'Rename recording',
+	title: 'Rename Recording',
 	config,
 	willStartRecording,
 	didStopRecording
